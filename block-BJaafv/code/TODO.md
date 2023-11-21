@@ -60,7 +60,17 @@ alert(userName); // John
 ```
 
 <!-- 8. What is a Anonymous Function give example of three functions. -->
+```The functions without any name are known as annonymous functions.This is the shorter way to write function expression.The three exaxmples are given below.```
+```js
+let fun1=(a,b)=>a+b;
+let fun2=msg=>`hello world`;
+let fun3=num1,num2=>{
+  return num1*num2;
+}
+```
 
+
+ 
 <!-- 9. Can function declaration be a Anonymous Function? Explain -->
 ```Function declaration can be annonymous function because annonymous function is just a function without any specific name.```
 <!-- 10. Give 5 example of good naming convention for defining a function. You can read the details below to do that. -->
@@ -79,3 +89,8 @@ Function starting with…
 "create…" – create something,
 "check…" – check something and return a boolean, etc.
 ```
+```1.Funcrion name must start with a letter.```
+```2.If the name of the function is of two characters the it should be in camel case.```
+```3.Function name should not start with digit or special characters.```
+```4.Function name should be written in that way that it should represent what it is doing.```
+<!-- ```5.Function ``` -->
