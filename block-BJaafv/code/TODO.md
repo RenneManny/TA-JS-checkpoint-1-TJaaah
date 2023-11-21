@@ -52,17 +52,17 @@ function showMessage() {
   return message;
 }
 
-alert(userName); // Output 1
+alert(userName); // John
 
-showMessage(); // Output 2
+showMessage(); // undefined because we have not passed the argument yet.
 
-alert(userName); // Output 3
+alert(userName); // John
 ```
 
 <!-- 8. What is a Anonymous Function give example of three functions. -->
 
 <!-- 9. Can function declaration be a Anonymous Function? Explain -->
-
+```Function declaration can be annonymous function because annonymous function is just a function without any specific name.```
 <!-- 10. Give 5 example of good naming convention for defining a function. You can read the details below to do that. -->
 
 ```md
