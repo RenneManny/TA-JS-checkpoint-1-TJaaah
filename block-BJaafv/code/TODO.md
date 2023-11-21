@@ -1,9 +1,10 @@
-1. What is the difference between the two `sum` function given below?
+<!-- 1. What is the difference between the two `sum` function given below? -->
 
 ```js
 // first
 function sum(a, b) {
-  return a + b;
+  let first= a + b;
+  return first;
 }
 
 // second
@@ -11,16 +12,24 @@ function sum(a, b) {
   console.log(a + b);
 }
 ```
+```In the first function the function will return the value i.e sum of a and b but in second function the function will not return a vakue instead of it it will log a value in the console.```
+ <!-- 2. If we store the returned value of both functions above in variable `first` and `second` what will be the value of `first` and `second`. -->
+<!-- In the first function the function will return the value i.e sum of a and b but in second function the function will not return a vakue instead of it it will log a value in the console. -->
+```In the first function the function will return the value i.e sum of a and b but in second function the function will  return a value undefined and it will log a value in the console.```
+<!-- 3. What will be the output when you call above `sum` function (first) with three parameter like `sum(12, 24, 35)`. Explain why? -->
+```It will add only two arguments i.e first two arguments and the third argument will not be passed because we haven't defined the parameter for this.```
+<!-- 4. Can you store the first `sum` function in a variable named `add`. If yes why? If no why? -->
+```Yes i can store the function in a variable because in js functions are values and variables are used to store values.```
+<!-- 5. Declare a function named `sayHello` the accepts a parameter `name` and returns the name like `Hello Arya`. -->
+```js
+function sayHello(name) {
+    return `hello ${name}`;
+}
+sayHello("Arya");
+```
 
-2. If we store the returned value of both functions above in variable `first` and `second` what will be the value of `first` and `second`.
 
-3. What will be the output when you call above `sum` function (first) with three parameter like `sum(12, 24, 35)`. Explain why?
-
-4. Can you store the first `sum` function in a variable named `add`. If yes why? If no why?
-
-5. Declare a function named `sayHello` the accepts a parameter `name` and returns the name like `Hello Arya`.
-
-6. What will be the output of the function below and why?
+<!-- 6. What will be the output of the function below and why? --> -->
 
 ```js
 let userName = 'John';
@@ -32,8 +41,8 @@ function showMessage() {
 
 showMessage();
 ```
-
-7. What will be the output for `Output1` `Output2` and `Output3` in the code below.
+``The output of the above code will be `hello john` because here we have assigned the value JOHN to username variable .Even if we are not providing the argument it will fetch the value of the userName variable. ``
+<!-- 7. What will be the output for `Output1` `Output2` and `Output3` in the code below. -->
 
 ```js
 let userName = 'John';
@@ -50,11 +59,11 @@ showMessage(); // Output 2
 alert(userName); // Output 3
 ```
 
-8. What is a Anonymous Function give example of three functions.
+<!-- 8. What is a Anonymous Function give example of three functions. -->
 
-9. Can function declaration be a Anonymous Function? Explain
+<!-- 9. Can function declaration be a Anonymous Function? Explain -->
 
-10. Give 5 example of good naming convention for defining a function. You can read the details below to do that.
+<!-- 10. Give 5 example of good naming convention for defining a function. You can read the details below to do that. -->
 
 ```md
 Functions are actions. So their name is usually a verb. It should be brief, as accurate as possible and describe what the function does, so that someone reading the code gets an indication of what the function does.
